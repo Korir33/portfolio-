@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section {
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+        nav a {
+            text-decoration: none;
+            padding: 10px 0
+            color#127399;
+            margin-right: center;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+        .grid img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Check out this amazing technology image:</p>
+        <a href="https://unsplash.com/photos/B2Tb9t3X60Q" target="_blank">
+            <img src="tech.jpg" alt="Technology">
+        </a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="grid">
+            <a href="https://unsplash.com/photos/saWPrKXTeAo" target="_blank">
+                <img src="nature 1.jpg" alt="Nature 1">
+            </a>
+            <a href="https://unsplash.com/photos/N3GpQxMhsEM" target="_blank">
+                <img src="nature 2.jpg" alt="Nature 2">
+            </a>
+            <a href="https://unsplash.com/photos/CpkOjOcXdUY" target="_blank">
+                <img src="nature 3.jpg" alt="Nature 3">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <a href="https://unsplash.com/photos/K0-_IFMznAo" target="_blank">
+                    <img src="burger.jpg" alt="Burger">
+                </a>
+                Burger
+            </li>
+            <li>
+                <a href="https://unsplash.com/photos/pX1PwCN9O6o" target="_blank">
+                    <img src="pizza.jpg" alt="Pizza">
+                </a>
+                Pizza
+            </li>
+            <li>
+                <a href="https://unsplash.com/photos/OFY6bXwRNlY" target="_blank">
+                    <img src="salad.jpg" alt="Salad">
+                </a>
+                Salad
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
